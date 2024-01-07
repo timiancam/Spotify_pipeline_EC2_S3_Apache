@@ -3,17 +3,18 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "python_package_template"
+name = "twitter_data_pipeline"
 authors = ["Timothy Cameron <timiancam@gmail.com>"]
 version = "0.1"
 description = "My package description"
 readme = "README.md"
 keywords = ["one", "two"]
 license = "MIT"
-repository = "https:://github.com/timiancam/python_package_template"
+repository = "https://github.com/timiancam/twitter_data_pipeline"
 packages = [
-    { include = "python_package_template" },
+    { include = "twitter_data_pipeline" },
 ]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.11,<3.13"
+pandas = "^2.1.3"
