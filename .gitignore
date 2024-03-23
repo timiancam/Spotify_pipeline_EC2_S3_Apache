@@ -6,3 +6,4 @@
 *.cache
 *.venv
 *.lock
+*.pem
